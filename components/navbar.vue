@@ -82,7 +82,7 @@ const isOpen = ref(false);
           </NuxtLink>
 
           <NuxtLink
-            to="/"
+            to="/pages/misitinerarios"
             class="flex items-center space-x-1 px-3 py-1.5 rounded-md text-gray-700 bg-white hover:text-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-teal-400 transition"
           >
             <svg
@@ -103,7 +103,7 @@ const isOpen = ref(false);
           </NuxtLink>
 
           <NuxtLink
-            to="/"
+            to="/pages/crearitinerario"
             class="flex items-center space-x-1 px-3 py-1.5 rounded-md text-gray-700 bg-white hover:text-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-teal-400 transition"
           >
             <svg
