@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div class="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-teal-50">
     <div class="w-full max-w-md bg-white rounded-lg shadow-lg overflow-hidden">
       
@@ -125,3 +126,10 @@ const login = () => {
   // Aquí puedes hacer tu petición a la base de datos o API
 }
 </script>
+=======
+  <div>
+    <NuxtRouteAnnouncer />
+    <NuxtWelcome />
+  </div>
+</template>
+>>>>>>> 9eefd92d1c77d2a61a4b04702abd15cdc6430bb3

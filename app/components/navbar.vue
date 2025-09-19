@@ -7,7 +7,11 @@ const isOpen = ref(false);
   <nav class="relative bg-white shadow-sm py-4">
     <div class="container mx-auto px-6 flex justify-between items-center">
       <NuxtLink
+<<<<<<< HEAD
         to="/home"
+=======
+        to="/"
+>>>>>>> 9eefd92d1c77d2a61a4b04702abd15cdc6430bb3
         class="flex items-center text-xl font-bold text-gray-800 space-x-3"
       >
         <div
@@ -61,7 +65,11 @@ const isOpen = ref(false);
           class="flex flex-col md:flex-row items-center justify-center w-full md:w-auto gap-2 md:gap-4 mx-auto"
         >
           <NuxtLink
+<<<<<<< HEAD
             to="/home"
+=======
+            to="/"
+>>>>>>> 9eefd92d1c77d2a61a4b04702abd15cdc6430bb3
             class="flex items-center space-x-1 px-3 py-1.5 rounded-md text-gray-700 bg-white hover:text-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-teal-400 transition"
           >
             <svg
@@ -82,7 +90,11 @@ const isOpen = ref(false);
           </NuxtLink>
 
           <NuxtLink
+<<<<<<< HEAD
             to="/myItineraries"
+=======
+            to="/misitinerarios"
+>>>>>>> 9eefd92d1c77d2a61a4b04702abd15cdc6430bb3
             class="flex items-center space-x-1 px-3 py-1.5 rounded-md text-gray-700 bg-white hover:text-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-teal-400 transition"
           >
             <svg
@@ -103,7 +115,11 @@ const isOpen = ref(false);
           </NuxtLink>
 
           <NuxtLink
+<<<<<<< HEAD
             to="/createItineraries"
+=======
+            to="/crearitinerario"
+>>>>>>> 9eefd92d1c77d2a61a4b04702abd15cdc6430bb3
             class="flex items-center space-x-1 px-3 py-1.5 rounded-md text-gray-700 bg-white hover:text-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-teal-400 transition"
           >
             <svg
@@ -127,7 +143,11 @@ const isOpen = ref(false);
           class="flex flex-col md:flex-row items-center justify-center md:justify-end w-full md:w-auto gap-2 md:gap-4 mt-4 md:mt-0"
         >
           <NuxtLink
+<<<<<<< HEAD
             to="/profile"
+=======
+            to="/index/"
+>>>>>>> 9eefd92d1c77d2a61a4b04702abd15cdc6430bb3
             class="flex items-center space-x-1 px-3 py-1.5 rounded-md text-gray-700 bg-white hover:text-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-teal-400 transition"
           >
             <svg
