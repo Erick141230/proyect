@@ -98,7 +98,7 @@
         
         <p class="text-center text-gray-600 text-sm mt-4">
           ¿No tienes una cuenta? 
-          <a href="#" class="text-blue-600 hover:underline">Regístrate</a>
+          <a href="/register" class="text-blue-600 hover:underline">Regístrate</a>
         </p>
         
         
@@ -111,17 +111,20 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+  definePageMeta({
+  layout: false
+  })
+  import { ref } from 'vue'
 
-const email = ref('')
-const password = ref('')
-const remember = ref(false)
-const showPassword = ref(false)
+  const email = ref('')
+  const password = ref('')
+  const remember = ref(false)
+  const showPassword = ref(false)
 
-const login = () => {
-  console.log('Email:', email.value)
-  console.log('Password:', password.value)
-  console.log('Remember:', remember.value)
-  // Aquí puedes hacer tu petición a la base de datos o API
-}
+  const login = () => {
+    console.log('Email:', email.value)
+    console.log('Password:', password.value)
+    console.log('Remember:', remember.value)
+    // Aquí puedes hacer tu petición a la base de datos o API
+  }
 </script>
