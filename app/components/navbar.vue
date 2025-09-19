@@ -7,11 +7,7 @@ const isOpen = ref(false);
   <nav class="relative bg-white shadow-sm py-4">
     <div class="container mx-auto px-6 flex justify-between items-center">
       <NuxtLink
-<<<<<<< HEAD
         to="/home"
-=======
-        to="/"
->>>>>>> 9eefd92d1c77d2a61a4b04702abd15cdc6430bb3
         class="flex items-center text-xl font-bold text-gray-800 space-x-3"
       >
         <div
